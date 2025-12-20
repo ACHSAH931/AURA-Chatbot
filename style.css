@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#chat-box {
+    height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fdfcfc;
+}
+
+.bot {
+    color: #213e64;
+    margin-bottom: 5px;
+}
+
+.user {
+    color: #333;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 75%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+}
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.message {
+    max-width: 80%;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* User messages */
+.user-message {
+    background-color: #00060b;
+    color: #f7f3f3;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* AURA messages */
+.bot-message {
+    background-color: #c9d1d7;
+    color: #2e4b76;
+    margin-right: auto;
+    text-align: left;
+}
+
+.controls {
+    display: flex;
+    gap: 5px;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+.typing {
+    font-size: 12px;
+    color: #000000;
+    margin: 5px 0;
+    display: none;
+    font-style: italic;
+}
+

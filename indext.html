@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthAssist Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <p class="warning">
+    ⚠️ AURA is a demonstration chatbot and does not provide medical diagnosis or treatment.
+    Please consult a qualified healthcare professional for medical concerns.
+</p>
+
+    <h2>AURA✨</h2>
+    <div id="chat-box"></div>
+    <div id="typing-indicator" class="typing">
+    AURA is typing...
+</div>
+
+    <div class="controls">
+    <input type="text" id="user-input" placeholder="Type your message here..." />
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="clearChat()" class="clear-btn">Clear</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
